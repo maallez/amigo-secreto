@@ -160,3 +160,24 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* botão de reiniciar */
+.button-reiniciar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #8C8C8C;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.button-reiniciar img {
+    margin-right: 40px;
+}
+
+.button-reiniciar:hover {
+    opacity: 1;
+}
