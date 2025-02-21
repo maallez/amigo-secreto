@@ -9,7 +9,7 @@ function adicionarAmigo() {
     return;
   }
   if (/[0-9]/.test(inAmigo)){
-    alert ("Você digitou um numero, por favor verifique!");
+    alert ("Você digitou um número, por favor verifique!");
     return;
   }
 
