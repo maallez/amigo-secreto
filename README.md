@@ -6,6 +6,9 @@ Esse projeto veio a partir do Challenge amigo secreto da Alura, como um modo de 
 Esse projeto permite ao usuario adicionar os nomes de amigos numa lista e sortear aleatoriamente os amigos a partir dessa lista.
 
 
+### Acesse aqui esse projeto online: https://maallez.github.io/amigo-secreto/
+
+
 ## :gear: Funcionalidades
 
 :star: Adicionar nomes numa lista e exibir em tela.
