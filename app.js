@@ -8,16 +8,21 @@ function adicionarAmigo() {
     alert("Por favor, insira um nome.");
     return;
   }
+  if (/[0-9]/.test(inAmigo)){
+    alert ("Você digitou um numero, por favor verifique!");
+    return;
+  }
+
   let listagem = document.getElementById("listaAmigos");
-
   let addLi = document.createElement("li");
-
   amigos.push(inAmigo);
-
   document.getElementById("amigo").value = "";
 
+  inAmigo = inAmigo.toLowerCase().replace(/(?:^|\s)\S/g, function(a) {
+    return a.toUpperCase();
+  });
+  
   addLi.textContent = inAmigo;
-
   listagem.appendChild(addLi);
 }
 
